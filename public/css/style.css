@@ -941,4 +941,26 @@
     height: 50px;
     margin: 0 40px;
   }
+
+  .logo-link {
+    /* Puedes ajustar este valor para controlar el tamaño del contenedor del logo */
+    display: inline-block; /*  Permite ajustar el ancho y alto del logo */
+}
+
+.logo-img {
+    /* Establece el tamaño deseado para la imagen */
+    width: 100px;  /*  Ancho del logo */
+    height: auto; /*  Mantiene la proporción original */
+    /* O alternativamente, si quieres controlar tanto ancho como alto: */
+    /* width: 50px;
+       height: 50px; */
+    /*  Si el logo se sigue viendo grande, puedes usar un max-width: */
+    /* max-width: 100%; */
+}
+
+@media (max-width: 768px) {  /* Para pantallas más pequeñas (ej: tablets) */
+    .logo-img {
+        width: 75px;
+    }
+}
   
