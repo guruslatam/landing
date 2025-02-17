@@ -74,39 +74,40 @@
     </div>
     <!-- Spinner End -->
 
-   <!-- Topbar Start -->
-   <div class="container-fluid topbar px-0 px-lg-4 bg-light py-2 d-none d-lg-block">
-    <div class="container">
-        <div class="row gx-0 align-items-center">
-            <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+    <!-- Topbar Start -->
+    <div class="container-fluid topbar px-0 px-lg-4 bg-light py-2 d-none d-lg-block">
+        <div class="container">
+            <div class="row gx-0 align-items-center">
+                <div class="col-lg-8 text-center text-lg-start mb-lg-0">
 
-            </div>
-            <div class="col-lg-4 text-center text-lg-end">
-                <div class="d-flex justify-content-end">
-                    <div class="d-flex border-end border-primary pe-3">
-                        <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-twitter"></i></a>
-                        <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-instagram"></i></a>
-                        <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="btn p-0 text-primary me-0" href="#"><i class="fab fa-whatsapp"></i></a>
-                    </div>
-                    <div class="dropdown ms-3">
-                        <a href="#" class="dropdown-toggle text-dark" data-bs-toggle="dropdown"><small><i
-                                    class="fas fa-globe-europe text-primary me-2"></i> Español</small></a>
-                        <div class="dropdown-menu rounded">
-                            <a href="#" class="dropdown-item">Español</a>
-                            <a href="#" class="dropdown-item">Ingles</a>
+                </div>
+                <div class="col-lg-4 text-center text-lg-end">
+                    <div class="d-flex justify-content-end">
+                        <div class="d-flex border-end border-primary pe-3">
+                            <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn p-0 text-primary me-0" href="#"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                        <div class="dropdown ms-3">
+                            <a href="#" class="dropdown-toggle text-dark" data-bs-toggle="dropdown"><small><i
+                                        class="fas fa-globe-europe text-primary me-2"></i> <span id="current-language" data-translate="current-language">Español</span></small></a>
+                            <div class="dropdown-menu rounded">
+                                <a href="#" class="dropdown-item" data-lang="es"><span class="idioma-item" data-translate="idioma-item-sp">Español</span></a>
+                                <a href="#" class="dropdown-item" data-lang="en"><span class="idioma-item" data-translate="idioma-item-en">English</span></a>
+                                <a href="#" class="dropdown-item" data-lang="zh-CN"><span class="idioma-item" data-translate="idioma-item-zh-CN">中文 (简体)</span></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- Topbar End -->
+    <!-- Topbar End -->
 
-    <!-- Navbar & Hero Start -->
-    <div class="container-fluid nav-bar px-0 px-lg-4 py-lg-0">
+      <!-- Navbar & Hero Start -->
+      <div class="container-fluid nav-bar px-0 px-lg-4 py-lg-0">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a href="#" class="navbar-brand p-0">
@@ -118,14 +119,14 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav mx-0 mx-lg-auto">
-                        <a href="index.html" class="nav-item nav-link ">Principal</a>
-                        <a href="about.html" class="nav-item nav-link">Nosotros</a>
-                        <a href="alibaba.html" class="nav-item nav-link">Alibaba</a>
-                        <a href="contact.html" class="nav-item nav-link active">Contactos</a>
+                        <a href="index.html" class="nav-item nav-link "><span data-translate="link_Home">Principal</span></a>
+                        <a href="about.html" class="nav-item nav-link"><span data-translate="link_About">Nosotros</span></a>
+                        <a href="alibaba.html" class="nav-item nav-link"><span data-translate="link_Alibaba">Alibaba</span></a>
+                        <a href="contact.html" class="nav-item nav-link active"><span data-translate="link_Contact">Contactanos</span></a>
                         <div class="nav-btn px-3">
                            
-                            <a href="#" class="btn btn-primary rounded-pill py-2 px-4 ms-3 flex-shrink-0"> Agendar
-                                Cita</a>
+                            <a href="#" class="btn btn-primary rounded-pill py-2 px-4 ms-3 flex-shrink-0"><span data-translate="schedule_An">Agendar
+                                Cita</span> </a>
                         </div>
                     </div>
                 </div>
@@ -487,6 +488,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
