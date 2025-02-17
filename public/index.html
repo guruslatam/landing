@@ -66,15 +66,6 @@
     <!-- End Google Tag Manager (noscript) -->
 
 
-    <!-- Spinner Start -->
-    <div id="spinner"
-        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
-        </div>
-    </div>
-    <!-- Spinner End -->
-
     <!-- Topbar Start -->
     <div class="container-fluid topbar px-0 px-lg-4 bg-light py-2 d-none d-lg-block">
         <div class="container">
@@ -93,10 +84,11 @@
                         </div>
                         <div class="dropdown ms-3">
                             <a href="#" class="dropdown-toggle text-dark" data-bs-toggle="dropdown"><small><i
-                                        class="fas fa-globe-europe text-primary me-2"></i> Español</small></a>
+                                        class="fas fa-globe-europe text-primary me-2"></i> <span id="current-language" data-translate="current-language">Español</span></small></a>
                             <div class="dropdown-menu rounded">
-                                <a href="#" class="dropdown-item">Español</a>
-                                <a href="#" class="dropdown-item">Ingles</a>
+                                <a href="#" class="dropdown-item" data-lang="es"><span class="idioma-item" data-translate="idioma-item-sp">Español</span></a>
+                                <a href="#" class="dropdown-item" data-lang="en"><span class="idioma-item" data-translate="idioma-item-en">English</span></a>
+                                <a href="#" class="dropdown-item" data-lang="zh-CN"><span class="idioma-item" data-translate="idioma-item-zh-CN">中文 (简体)</span></a>
                             </div>
                         </div>
                     </div>
@@ -119,14 +111,14 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav mx-0 mx-lg-auto">
-                        <a href="index.html" class="nav-item nav-link active">Principal</a>
-                        <a href="about.html" class="nav-item nav-link">Nosotros</a>
-                        <a href="alibaba.html" class="nav-item nav-link">Alibaba</a>
-                        <a href="contact.html" class="nav-item nav-link">Contactos</a>
+                        <a href="index.html" class="nav-item nav-link active"><span data-translate="link_Home">Principal</span></a>
+                        <a href="about.html" class="nav-item nav-link"><span data-translate="link_About">Nosotros</span></a>
+                        <a href="alibaba.html" class="nav-item nav-link"><span data-translate="link_Alibaba">Alibaba</span></a>
+                        <a href="contact.html" class="nav-item nav-link"><span data-translate="link_Contact">Contactanos</span></a>
                         <div class="nav-btn px-3">
                            
-                            <a href="#" class="btn btn-primary rounded-pill py-2 px-4 ms-3 flex-shrink-0"> Agendar
-                                Cita</a>
+                            <a href="#" class="btn btn-primary rounded-pill py-2 px-4 ms-3 flex-shrink-0"><span data-translate="schedule_An">Agendar
+                                Cita</span> </a>
                         </div>
                     </div>
                 </div>
@@ -147,19 +139,19 @@
                         <div class="col-lg-7 animated fadeInLeft">
                             <div class="text-sm-center text-md-start">
                                 <p class="mb-5 fs-5"></p>
-                                <h4 class="text-white text-uppercase fw-bold mb-4">Siempre hay una mejor manera</h4>
-                                <h1 class="display-1  text-white mb-4">de hacer crecer un negocio</h1>
-                                <p class="mb-5 fs-5">Transforme digitalmente y llegue al máximo de clientes potenciales
-                                    a nivel mundial con Alibaba.com
+                                <h4 class="text-white text-uppercase fw-bold mb-4"><span data-translate="title1">Siempre hay una mejor manera</span></h4>
+                                <h1 class="display-1  text-white mb-4"><span data-translate="title2">de hacer crecer un negocio</span></h1>
+                                <p class="mb-5 fs-5"><span data-translate="title3">Transforme digitalmente y llegue al máximo de clientes potenciales
+                                    a nivel mundial con Alibaba.com</span>
                                     <img src="./img/alibaba-global-service-partner.png" class="img-fluid w-50" />
                                 </p>
                                 <p class="mb-5 fs-5"></p>
 
                                 <div class="d-flex justify-content-center justify-content-md-start flex-shrink-0 mb-4">
                                     <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#"><i
-                                            class="fas fa-play-circle me-2"></i> Contactar ahora</a>
-                                    <a class="btn btn-dark rounded-pill py-3 px-4 px-md-5 ms-2" href="#">Acerca de
-                                        centro Innovador</a>
+                                            class="fas fa-play-circle me-2"></i><span data-translate="bn_1">Contactar ahora</span> </a>
+                                    <a class="btn btn-dark rounded-pill py-3 px-4 px-md-5 ms-2" href="#"><span data-translate="bn_2">Acerca de
+                                        centro Innovador</span></a>
                                 </div>
                                 <p class="mb-5 fs-5"></p>
                             </div>
@@ -187,18 +179,18 @@
                         <div class="col-lg-7 animated fadeInRight">
                             <div class="text-sm-center text-md-end">
                                 <p class="mb-5 fs-5"></p>
-                                <h4 class="text-white text-uppercase fw-bold mb-4">Siempre hay una mejor manera</h4>
-                                <h1 class="display-1 text-white mb-4">de hacer crecer un negocio</h1>
-                                <p class="mb-5 fs-5">Transforme digitalmente y llegue al máximo de clientes potenciales
-                                    a nivel mundial con Alibaba.com
+                                <h4 class="text-white text-uppercase fw-bold mb-4"><span data-translate="title1">Siempre hay una mejor manera</span></h4>
+                                <h1 class="display-1 text-white mb-4"><span data-translate="title2">de hacer crecer un negocio</span></h1>
+                                <p class="mb-5 fs-5"><span data-translate="title3">Transforme digitalmente y llegue al máximo de clientes potenciales
+                                    a nivel mundial con Alibaba.com</span>
                                     <img src="./img/alibaba-global-service-partner.png" class="img-fluid w-50" />
                                 </p>
 
                                 <div class="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">
                                     <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#"><i
-                                            class="fas fa-play-circle me-2"></i> Contactar ahora</a>
-                                    <a class="btn btn-dark rounded-pill py-3 px-4 px-md-5 ms-2" href="#">Acerca de
-                                        centro Innovador</a>
+                                            class="fas fa-play-circle me-2"></i> <span data-translate="bn_1">Contactar ahora</span></a>
+                                    <a class="btn btn-dark rounded-pill py-3 px-4 px-md-5 ms-2" href="#"><span data-translate="bn_2">Acerca de
+                                        centro Innovador</span></a>
                                 </div>
                                 <p class="mb-5 fs-5"></p>
                             </div>
@@ -212,11 +204,11 @@
     <div class="body-logo">
         <div class="logos">
             <div class="logos-slide">
-                <img src="./logos/Flag_of_Argentina.svg" />Argentina
-                <img src="./logos/Flag_of_Colombia.svg" />Colombia
-                <img src="./logos/Flag_of_El_Salvador.svg" />El Salvador
-                <img src="./logos/Flag_of_Honduras.svg" />Honduras
-                <img src="./logos/Flag_of_Panama.svg" />Panama
+                <img src="./logos/Flag_of_Argentina.svg" /><span data-translate="Argentina">Argentina</span>
+                <img src="./logos/Flag_of_Colombia.svg" /><span data-translate="Colombia">Colombia</span>
+                <img src="./logos/Flag_of_El_Salvador.svg" /><span data-translate="El_Salvador">El Salvador</span>
+                <img src="./logos/Flag_of_Honduras.svg" /><span data-translate="Honduras">Honduras</span>
+                <img src="./logos/Flag_of_Panama.svg" /><span data-translate="Panama">Panama</span>
             </div>
         </div>
     </div>
@@ -935,6 +927,7 @@
 
     <!-- Template Javascript -->
     <script src="./js/main.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
