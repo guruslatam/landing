@@ -52,7 +52,9 @@
   .owl-carousel .owl-dots.disabled {
     display: none; }
   .owl-carousel .owl-nav .owl-prev,
-  .owl-carousel .owl-nav .owl-next,
+  .owl-carousel .owl-nav .owl-next
+  {
+    display: none; }
   .owl-carousel .owl-dot {
     cursor: pointer;
     cursor: hand;
